@@ -1,7 +1,12 @@
+import java.util.Scanner;
+
 public class First {
         public static void main(String[] args) {
-            int a = 9;
-            int b = 6;
+            Scanner in = new Scanner(System.in);
+            System.out.printf("a= ");
+            int a = in.nextInt();
+            System.out.printf("b= ");
+            int b = in.nextInt();
             int c;
             c = a;
             a = b;
